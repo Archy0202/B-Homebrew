@@ -4,7 +4,7 @@
 	<info>
 		<name>Spellslinger</name>
 			<description>Spellslinger from B's Homebrew</description>
-		<update version="0.3.2">
+		<update version="0.3.3">
 			<file name="Class-Spellslinger.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Class-Spellslinger.xml" />
 		</update>
 		
@@ -289,11 +289,11 @@
 		</description>
 		<sheet display="false"/>
 		<rules>
-			<select type="Class Feature" name="Improvement option (Spellslinger 4)" supports="Improvement Option, Spellslinger,4" Level="4" />
-			<select type="Class Feature" name="Improvement option (Spellslinger 8)" supports="Improvement Option, Spellslinger,8" Level="8" />
-			<select type="Class Feature" name="Improvement option (Spellslinger 12)" supports="Improvement Option, Spellslinger,12" Level="12" />
-			<select type="Class Feature" name="Improvement option (Spellslinger 16)" supports="Improvement Option, Spellslinger,16" Level="16" />
-			<select type="Class Feature" name="Improvement option (Spellslinger 19)" supports="Improvement Option, Spellslinger,19" Level="19" />
+			<select type="Class Feature" name="Improvement option (Spellslinger 4)" supports="Improvement Option, Spellslinger,4" level="4" />
+			<select type="Class Feature" name="Improvement option (Spellslinger 8)" supports="Improvement Option, Spellslinger,8" level="8" />
+			<select type="Class Feature" name="Improvement option (Spellslinger 12)" supports="Improvement Option, Spellslinger,12" level="12" />
+			<select type="Class Feature" name="Improvement option (Spellslinger 16)" supports="Improvement Option, Spellslinger,16" level="16" />
+			<select type="Class Feature" name="Improvement option (Spellslinger 19)" supports="Improvement Option, Spellslinger,19" level="19" />
 		</rules>
 	</element>
 

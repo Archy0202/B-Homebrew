@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
     <info>
-        <update version="0.3.2">
+        <update version="0.3.3">
             <file name="BBrew.index" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/BBrew.index" />
         </update>
     </info>
