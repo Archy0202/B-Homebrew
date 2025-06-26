@@ -289,11 +289,11 @@
 		</description>
 		<sheet display="false"/>
 		<rules>
-			<select type="Class Feature" name="Improvement option (Spellslinger 4)" supports="Improvement Option, Spellslinger, 4" Level="4" />
-			<select type="Class Feature" name="Improvement option (Spellslinger 8)" supports="Improvement Option, Spellslinger, 8" Level="8" />
-			<select type="Class Feature" name="Improvement option (Spellslinger 12)" supports="Improvement Option, Spellslinger, 12" Level="12" />
-			<select type="Class Feature" name="Improvement option (Spellslinger 16)" supports="Improvement Option, Spellslinger, 14" Level="16" />
-			<select type="Class Feature" name="Improvement option (Spellslinger 19)" supports="Improvement Option, Spellslinger, 19" Level="19" />
+			<select type="Class Feature" name="Improvement option (Spellslinger 4)" supports="Improvement Option, Spellslinger,4" Level="4" />
+			<select type="Class Feature" name="Improvement option (Spellslinger 8)" supports="Improvement Option, Spellslinger,8" Level="8" />
+			<select type="Class Feature" name="Improvement option (Spellslinger 12)" supports="Improvement Option, Spellslinger,12" Level="12" />
+			<select type="Class Feature" name="Improvement option (Spellslinger 16)" supports="Improvement Option, Spellslinger,16" Level="16" />
+			<select type="Class Feature" name="Improvement option (Spellslinger 19)" supports="Improvement Option, Spellslinger,19" Level="19" />
 		</rules>
 	</element>
 
