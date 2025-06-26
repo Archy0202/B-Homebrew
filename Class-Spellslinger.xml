@@ -5,7 +5,7 @@
 		<Name>Spellslinger</name>
 		<description>Spellslinger from B's Homebrew</description>
 		<update version="0.2">
-			<file name="Class Spellslinger.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/Class-Spellslinger.xml" />
+			<file name="Class Spellslinger.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Class-Spellslinger.xml" />
 		</update>
 
 	</info>
