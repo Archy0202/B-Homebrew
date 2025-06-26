@@ -2,10 +2,10 @@
 <index>
     <info>
         <update version="0.2">
-            <file name="BBrew.index" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/BBrew.index" />
+            <file name="BBrew.index" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/a49e175c2abf39ed8090f55f5ebd395b76b45b62/BBrew.index" />
         </update>
     </info>
         <files>
-            <file name="Class-Spellslinger.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/blob/main/Class-Spellslinger.xml"/>
+            <file name="Class-Spellslinger.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/d78e4cc71176927194bcdfffd859de09e1acdc31/Class-Spellslinger.xml"/>
         </files>
 </index>
