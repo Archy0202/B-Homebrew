@@ -2,10 +2,10 @@
 <elements>
 	
 	<info>
-		<Name>Spellslinger</name>
+		<name>Spellslinger</name>
 		<description>Spellslinger from B's Homebrew</description>
 		<update version="0.2">
-			<file name="Class-Spellslinger.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/d78e4cc71176927194bcdfffd859de09e1acdc31/Class-Spellslinger.xml" />
+			<file name="Class-Spellslinger.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/edit/main/Class-Spellslinger.xml" />
 		</update>
 
 	</info>
