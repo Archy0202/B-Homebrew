@@ -2,7 +2,7 @@
 <index>
     <info>
         <update version="0.2">
-            <file name="BBrew.index" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/BBrew.index" />
+            <file name="BBrew.index" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/blob/main/BBrew.index" />
         </update>
     </info>
         <files>
