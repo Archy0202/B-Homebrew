@@ -7,7 +7,7 @@
 		<update version="0.2">
 			<file name="Class-Spellslinger.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Class-Spellslinger.xml"
 		</update>
-
+		
 	</info>
 
 	<element name="Spellslinger" type="Class" source="B's Homebrew" id="ID_B-Brew_CLASS_Slinger">
