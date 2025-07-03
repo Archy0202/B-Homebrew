@@ -6,7 +6,7 @@
         </description>
 
         <update version="0.1">
-            <file name="Fighter-DiscoKnight.xml" url="" />
+            <file name="Fighter-DiscoKnight.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Fighter-DiscoKnight.xml" />
         </update>
     </info>
 
@@ -16,6 +16,7 @@
         <description>
             <p></p>
             <p class="indent"></p>
+            <div element="ID_BBrew_ARCHETYPE_FEATURE_Proficiency" />
             <div element="ID____" />
             <div element="ID____" />
             <div element="ID____" />
@@ -26,13 +27,67 @@
             <description></description>
         </sheet>
         <rules>
-            <grant type="Archetype Feature" id="ID____" level="1" />
-            <grant type="Archetype Feature" id="ID____" level="1" />
-            <grant type="Archetype Feature" id="ID____" level="1" />
-            <grant type="Archetype Feature" id="ID____" level="1" />
-            <grant type="Archetype Feature" id="ID____" level="1" />
+            <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_Proficiency" level="3" />
+            <grant type="Archetype Feature" id="ID____" level="3" />
+            <grant type="Archetype Feature" id="ID____" level="3" />
+
+            <grant type="Archetype Feature" id="ID____" level="7" />
+            <grant type="Archetype Feature" id="ID____" level="7" />
+
+            <grant type="Archetype Feature" id="ID____" level="10" />
+            <grant type="Archetype Feature" id="ID____" level="10" />
+
+            <grant type="Archetype Feature" id="ID____" level="15" />
+            <!--Improved Combo text update-->
+            
+            <grant type="Archetype Feature" id="ID____" level="18" />
         </rules>
     </element>
 
+    <element name="Additonal Proficiency" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_Proficiency">
+        <description>
+            <p>On picking the Disco Knight Archetype at 3rd level, you gain proficiency in the performance skill. If you already have proficiency in the skill you add double the modifier to performance checks.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+        </rules>
+    </element>
+
+    <element name="Blunt Brawler" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_BluntBrawler">
+        <description>
+            <p>This feature gives the same benefits as the "Unarmed Fighting" fighting style and an additional bonus.</p>
+            <p class="indent"> Your Unarmed Strikes deal Bludgoening damage equal to 1d6 + your strenght modifier on a hit. If your not wielding weapons or a shield the d6 becomes a d8. </p>
+            <p> Additionally, from 6th level, your Unarmed Strikes are considered magical if you have an active combo. This is to overcome resistance and immunity to non-magical weapons and attacks. </p>
+
+        </description>
+        <sheet>
+            <description level="3">
+            <p> Your unarmed Strikes deal 1d6 + strenght modifier Bludgoening damage. </p>
+            <p class="indent"> The d6 becomes a d8 if you arent wielding weapons or a shield. </p>
+            </description>
+
+            <description level="6">
+            <p> Your unarmed Strikes deal 1d6 + strenght modifier Bludgoening damage. </p>
+            <p class="indent"> The d6 becomes a d8 if you arent wielding weapons or a shield. </p>
+            <p> Your Unarmed Strikes are considered Magical if you have an active combo to overcome resistance and immunity.</p>
+             </description>
+        </sheet>
+    </element>
+
+    <element name="To the Beat" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_TheBeat">
+        <description>
+            <p>Starting from 3rd level, you gain a Disco Beat. It's a special rythm only you can hear that drives you during combat.</p>
+            <h4>Follow the Beat</h4>
+            <p> At the start of Combat, you designate an enemy that becomes your Target. On your turn, if you attack the "target" and manage to hit an unarmed strike you start a Combo </p>
+            <p class="indent">Combo builds for each successful unarmed strike you make against the target up to a value equal to your performance modifier</p>
+            <p>At the end of your turn, the creature that is your "target" chnages, you pick another crature within 15ft of you and they become the next target. As long as you attack a creature that is the "target" you continue to maintain and build combo. if you attack an creature that isnt the target your combo breaks and drops to zero.</p>
+            <p class="indent">If the creature that is your target dies, on the start of your next turn you designate another creature as the new target. </p>
+            
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+    </element>
 
 </elements>
