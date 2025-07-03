@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Disco Knight</name>
+        <description>A new Homebrew Archetype for the Fighter class, available at 3rd level, the Disco Knight focuses on moving aroud the battle field, building a combo from unarmed attacks to deal devistating blows.
+        </description>
+
+        <update version="0.1">
+            <file name="Fighter-DiscoKnight.xml" url="" />
+        </update>
+    </info>
+
+    <element name="Disco Knight" type="Archetype" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_DiscoKnight">
+        <supports>Martial Archetype</supports>
+        
+        <description>
+            <p></p>
+            <p class="indent"></p>
+            <div element="ID____" />
+            <div element="ID____" />
+            <div element="ID____" />
+            <div element="ID____" />
+            <div element="ID____" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID____" level="1" />
+            <grant type="Archetype Feature" id="ID____" level="1" />
+            <grant type="Archetype Feature" id="ID____" level="1" />
+            <grant type="Archetype Feature" id="ID____" level="1" />
+            <grant type="Archetype Feature" id="ID____" level="1" />
+        </rules>
+    </element>
+
+
+</elements>
