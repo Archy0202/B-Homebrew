@@ -5,7 +5,7 @@
         <description>A new Homebrew Archetype for the Fighter class, available at 3rd level, the Disco Knight focuses on moving aroud the battle field, building a combo from unarmed attacks to deal devistating blows.
         </description>
 
-        <update version="0.1">
+        <update version="0.1.4">
             <file name="Fighter-DiscoKnight.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Fighter-DiscoKnight.xml" />
         </update>
     </info>
@@ -83,7 +83,7 @@
             <p class="indent">Combo builds for each successful unarmed strike you make against the target up to a value equal to your performance modifier</p>
             <p>At the end of your turn, the creature that is your "target" chnages, you pick another crature within 15ft of you and they become the next target. As long as you attack a creature that is the "target" you continue to maintain and build combo. if you attack an creature that isnt the target your combo breaks and drops to zero.</p>
             <p class="indent">If the creature that is your target dies, on the start of your next turn you designate another creature as the new target. </p>
-            
+
         </description>
         <sheet>
             <description></description>
