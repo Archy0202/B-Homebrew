@@ -519,7 +519,7 @@
 			<p>A +1dx / -1dx are applied to two connected modifiers.</p>
 			<p>Example: Attack roll = Damage modifier / Saving Throw = Connected primary stat </p>
 			<p>The Die type id determined by Level. </p>
-			<p class="indent"> [lvl1:1d6][lvl5:1d8][lvl10:1d10][lvl15:1d12]	</p>
+			<p> [lvl1:1d6] [lvl5:1d8] [lvl10:1d10] [lvl15:1d12]	</p>
 
 			<h4>Exhange Seal : Level 2</h4>
 			<p>Two Connected Modifiers are switched</p>
@@ -553,10 +553,10 @@
 
 		</description>
 		<sheet>
-			<description level="2">Known Seals: Modify, Exchange. </description>
-			<description level="6">Known Seals: Modify, Exchange, Fortune, Halted. </description>
-			<description level="15">Known Seals: Modify, Exchange, Fortune, Halted, Anchor. </description>
-			<description level="18">Known Seals: Modify, Exchange, Fortune, Halted, Anchor, Blood, Dead Man's </description>
+			<description level="2">Known: Modify, Exchange. </description>
+			<description level="6">Known: Modify, Exchange, Fortune, Halted. </description>
+			<description level="15">Known: Modify, Exchange, Fortune, Halted, Anchor. </description>
+			<description level="18">Known: Modify, Exchange, Fortune, Halted, Anchor, Blood, Dead Man's </description>
 
 		</sheet>
 	</element>
@@ -568,7 +568,7 @@
 
 		</description>
 		<sheet>
-			<description>You can apply multiple Seals onto target, the amount being equal to your intelligence modifier,</description>
+			<description>You can apply multiple Seals onto target, the amount being equal to your intelligence modifier.</description>
 		</sheet>
 	</element>
 
@@ -587,14 +587,16 @@
 		<description>
 			<p>Starting from 13th level, you gain the ability to create AOE bubbles around you that are infused with the effect of a seal which applies to any creature within the area.</p>
 			<p> As an action, you expend a spell slot and create a spherical bubble around yourself, the size of which is determined by the spell slot used.</p>
-			<li>[1st=10ft R][2nd=20ft R][3rd=30ft R][4th=40ft R][5th=50ft R]</li>
+			<li>[1st=10ft R] [2nd=20ft R] [3rd=30ft R] [4th=40ft R] [5th=50ft R]</li>
 			<p> The Barrier lasts for 1h, but can be dismissed as a Bonus action. It can also be effected by standard anti-magic effects.</p>
 			<p class="indent">When a creature first enters a Barrier, they need to succeed a Charisma Saving Throw against your spell save DC or be effected by a Seal that you select on creatig the barrier. If a creature succeeds they are immune to the barriers effects for its duration. 
 			on a fail, they get to remake the save at the end of subsequent turns. </p>
 	
 		</description>
 		<sheet>
-			<description>Temp</description>
+			<description>Action: create a spherical barrier using a spell slot that is infused with a seal that effects everyone within.
+			The spheres radius is [X x10ft] where X is the level of the spell slot used in activating the ability.
+			</description>
 		</sheet>
 	</element>
 
