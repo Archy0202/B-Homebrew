@@ -4,7 +4,7 @@
 	<info>
 		<name>Spellslinger</name>
 			<description>Spellslinger from B's Homebrew</description>
-		<update version="0.3.4.5">
+		<update version="0.3.4.6">
 			<file name="Class-Spellslinger.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Class-Spellslinger.xml" />
 		</update>
 		
@@ -185,13 +185,13 @@
 			
 			
 			<!--class feature-->
-			<grant type="Class Feature" id="ID_BBrew_CLASS_FEATURE_SlingerCasting" Level="1" />
+			<grant type="Class Feature" id="ID_BBrew_CLASS_FEATURE_SlingerCasting" level="1" />
 
 			<grant type="Class Feature" id="ID_BBrew_CLASS_FEATURE_SLINGER_EMPTY" level="1" />
 
 			<grant type="Class Feature" id="ID_BBrew_CLASS_FEATURE_SLINGER_SPECIALTY" level="2" />
 
-			<grant type="Class Feature" id="ID_BBrew_CLASS_FEATURE_ArcaneProf(I)" Level="3" />
+			<grant type="Class Feature" id="ID_BBrew_CLASS_FEATURE_ArcaneProf(I)" level="3" />
 			
 			<grant type="Class Feature" id="ID_BBrew_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_Slinger" level="4" />
 			
