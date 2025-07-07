@@ -4,7 +4,7 @@
 	<info>
 		<name>Spellslinger</name>
 			<description>Spellslinger from B's Homebrew</description>
-		<update version="0.3.4.6">
+		<update version="0.4">
 			<file name="Class-Spellslinger.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Class-Spellslinger.xml" />
 		</update>
 		
@@ -462,27 +462,140 @@
 		<description>
 			<p></p>
 			<p class="indent"></p>
-			<div element="ID____" />
-			<div element="ID____" />
-			<div element="ID____" />
-			<div element="ID____" />
-			<div element="ID____" />
-			<div element="ID____" />
-			<div element="ID____" />
+			<div element="ID_BBrew_ARCHETYPE_FEATURE_CURSED_VOWS" />
+			<div element="ID_BBrew_ARCHETYPE_FEATURE_CURSED_VOW_LIST" />
+			<div element="ID_BBrew_ARCHETYPE_FEATURE_CURSED_ENFORCER" />
+			<div element="ID_BBrew_ARCHETYPE_FEATURE_CURSED_CONDITIONS" />
+			<div element="ID_BBrew_ARCHETYPE_FEATURE_CURSED_BARRIER" />
+			
+			
 		</description>
 		<sheet display="false">
 			<description></description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID____" level="2" />
-			<grant type="Archetype Feature" id="ID____" level="6" />
-			<grant type="Archetype Feature" id="ID____" level="7" />
-			<grant type="Archetype Feature" id="ID____" level="9" />
-			<grant type="Archetype Feature" id="ID____" level="11" />
-			<grant type="Archetype Feature" id="ID____" level="14" />
-			<grant type="Archetype Feature" id="ID____" level="17" />
+			<grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_CURSED_VOWS" level="2" />
+			<grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_CURSED_VOW_LIST" level="2" />
+			<grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_CURSED_ENFORCER" level="6" />
+			<grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_CURSED_CONDITIONS" level="10" />
+			<grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_CURSED_BARRIER" level="13" />
+			
+			
 		</rules>
 	</element>
 
+	<element name="Binding Vow" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_CURSED_VOWS">
+		<description>
+			<h4>Magic seals</h4>
+			<p>Using magic, you weave contracts marked by a seal tha you place on yourself or other creature.</p>
+			<p>These Seal contain special rules and conditions that the effected have to follow.</p>
+			<p class="indent"> These seals arent inherently negative; instead being a type of Risk/Reward contarct.</p>
+			<h4>Creating a Seal</h4>
+			<p>On your turn, you can create a seal as an Action and by spending a Spell slot. You can target creatures with 30ft and the level of spell slot used determines the initial amount of targets you can select. </p>
+			<p class="indent"> An unwilling target gets to make a Charisma Saving Throw against your Spell Save DC to resist the seal taking effect. An active seal on a creature can be resisted at the end of the creatures turn with another Save to see if the effect end.</p>
+			<p> A Target creature can only 1 active seal placed on them; A Seal naturally lasts for 1h but can be dispelled at any time or by Anti-magcial means.</p>
+			
+			<h4>Seal Types</h4>
+			<p> As a special note due to the natrue of Seals, there are three considered types.</p>
+			<li>Combatants Seal: ( To Hit = Damage Modifier )</li>
+			<li>Guarded Seal: ( Saving Throw Modifier = Related Primary Stat Modifier )</li>
+			<li>Talent Seal: ( Skill Modifier = Related Primary Stat Modifier )</li>
+
+		</description>
+		<sheet>
+			<description>
+			As an Action and spending a Spell slot, you target a number of creatures equal to the Slots level used within 30ft and apply a magic seal onto them. 
+			Unwilling targets get to make a Charisma saving throw and can remake the save at the end of their turn.
+			The seal last 1h and can be dismissed at any time or dispelled. 
+			</description>
+		</sheet>
+	</element>
+
+	<element name="Seals" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_CURSED_VOW_LIST">
+		<description>
+			<p>The list of the Seal you unlock as you progress as a Cursed Spellslinger</p>
+
+			<h4>Modify Seal : Level 2</h4>
+			<p>A +1dx / -1dx are applied to two connected modifiers.</p>
+			<p>Example: Attack roll = Damage modifier / Saving Throw = Connected primary stat </p>
+			<p>The Die type id determined by Level. </p>
+			<p class="indent"> [lvl1:1d6][lvl5:1d8][lvl10:1d10][lvl15:1d12]	</p>
+
+			<h4>Exhange Seal : Level 2</h4>
+			<p>Two Connected Modifiers are switched</p>
+			<p>Example: Skill modifier and its connected primary stat</p>
+
+			<h4>Fortune Seal : Level 6</h4>
+			<p>Two parts of an Action or related Action are altered, giving one Advantage and the other Disadvantage.</p>
+			<p>Can be applied to certain things that normaly can't have advantage/disadvantage.</p>
+			<p>Example: Disadvantage on a To Hit roll but advantage on the Damage roll </p>
+
+			<h4>Halted Seal : Level 6</h4>
+			<p>Effects Movement Mpeed and AC.</p>
+			<p> A target creatures movement speed can be reduced in increments of 10ft; but for every 10ft removed the creature gains +1 AC.</p>
+			<p class="indent"> Effect can be reversed, lowering AC up to a maximum of [-3 AC] but increasing movement speed by 10ft for each point and causing the creature to no longer trigger attacks of oppertunity.</p>
+
+			<h4>Anchor Seal : Level 15</h4>
+			<p>Only Works on Gaurded and Talent seal types.</p>
+			<p>Select an aspect and prevent a creature from using it entirely. You completely prevent a creature from being able to use a Skill or saving throw by locking it modifier.</p>
+			<p>The locked modifier is an auto fail condition, meaning the effected automatically fails a check made the locked modifier. In Exchange the value of the locked modifier is added to the connected aspect.</p>
+			<p> Example: A creature Constitution Save modifier gets locked, it now is unable to even make Con Saves but the modifier of the Saving throw is added to the creature Primary constitution modifier for the Seals duration.</p>
+
+			<h4>Blood Seal : Level 18</h4>
+			<p>As an Action, you target a creature that you can see.</p>
+			<p>If the Target creature has less HP then you, you can take an amount of damage so that you have an equal amount of HP. The target then needs to succeed a Charisma Saving Throw against your spell save DC or the amount of HP it has becomes it hit point maximum for the duration of the Seal.</p>
+		
+			<h4>Dead Man's Seal : Level 18</h4>
+			<p>To activate, requires you to have a minimum of over 2/3rd your Max Hp.</p>
+			<p class="indent"> Can only be done once per long rest </p>
+			<p>As an action you target a creature you can see, they need to make a Charisma Saving Throw against your Spell save DC. If they fail, you deal damage to yourself and go down to 0hp in an unstable state; But in exchange, you get to pick one ability or feature that the target has on their statsheet and completely lock them out of using it for 24h.</p>
+			<p>If the target succeds the save you still take damage but only go down to 1hp.</p>
+
+		</description>
+		<sheet>
+			<description level="2">Known Seals: Modify, Exchange. </description>
+			<description level="6">Known Seals: Modify, Exchange, Fortune, Halted. </description>
+			<description level="15">Known Seals: Modify, Exchange, Fortune, Halted, Anchor. </description>
+			<description level="18">Known Seals: Modify, Exchange, Fortune, Halted, Anchor, Blood, Dead Man's </description>
+
+		</sheet>
+	</element>
+
+	<element name="Rule Enforcer" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_CURSED_ENFORCER">
+		<description>
+			<p>Starting from 6th level, You unlock the Fortune and Halted Seals.</p>
+			<p class="indent"> Additionally you can apply multiple seals on a target creature. The amount being equal to your intelligence modifier.</p>
+
+		</description>
+		<sheet>
+			<description>You can apply multiple Seals onto target, the amount being equal to your intelligence modifier,</description>
+		</sheet>
+	</element>
+
+	<element name="Strict Conditions" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_CURSED_CONDITIONS">
+		<description>
+			<p>Starting from 10th level, you have become proficient enough with your techniques that can shift the balance of your seals to lean into their good or bad aspect.</p>
+			<p>When a seal that you have created is Triggered, as a reaction, you can spend an amount of Hp equal to [5x spell slot level used] and can for that trigger of the seal decide if the good or bad aspect of the seal applies for the activation.</p>
+			<p class="indent"> This effect cannot be applied to: Halted, Blood or Dead man's seals </p>
+		</description>
+		<sheet>
+			<description>Reaction: When the conditions of a seal are triggered, you can spend an amount of Hp [5x spell slot level used for the seal] to temporarily disable one of its effect till the end of the selected creature turn.</description>
+		</sheet>
+	</element>
+
+	<element name="Barriers" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_CURSED_BARRIER">
+		<description>
+			<p>Starting from 13th level, you gain the ability to create AOE bubbles around you that are infused with the effect of a seal which applies to any creature within the area.</p>
+			<p> As an action, you expend a spell slot and create a spherical bubble around yourself, the size of which is determined by the spell slot used.</p>
+			<li>[1st=10ft R][2nd=20ft R][3rd=30ft R][4th=40ft R][5th=50ft R]</li>
+			<p> The Barrier lasts for 1h, but can be dismissed as a Bonus action. It can also be effected by standard anti-magic effects.</p>
+			<p class="indent">When a creature first enters a Barrier, they need to succeed a Charisma Saving Throw against your spell save DC or be effected by a Seal that you select on creatig the barrier. If a creature succeeds they are immune to the barriers effects for its duration. 
+			on a fail, they get to remake the save at the end of subsequent turns. </p>
+	
+		</description>
+		<sheet>
+			<description>Temp</description>
+		</sheet>
+	</element>
 
 </elements>
