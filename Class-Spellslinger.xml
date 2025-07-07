@@ -4,7 +4,7 @@
 	<info>
 		<name>Spellslinger</name>
 			<description>Spellslinger from B's Homebrew</description>
-		<update version="0.3.4.3">
+		<update version="0.3.4.4">
 			<file name="Class-Spellslinger.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Class-Spellslinger.xml" />
 		</update>
 		
@@ -267,8 +267,8 @@
 			<description>
 			<p><h4>Reaction:</h4> Make an Arcanae check on a spell can see that is cast with 60ft, the DC is the caster spellsave.</p>
 			<p> On a success, you memorize the spell </p>
-			<p> you can memorize an amount of spells equal to your intelligence modifier</p>
-			<p class="indent"> find remainder of the rules below </p>
+			<p> and can memorize an amount of spells equal to your intelligence modifier.</p>
+			<p class="indent"> you can find the remainder of the rules below. </p>
 
 			</description>
 		</sheet>
