@@ -4,7 +4,7 @@
 	<info>
 		<name>Spellslinger</name>
 			<description>Spellslinger from B's Homebrew</description>
-		<update version="0.3.4">
+		<update version="0.3.4.2">
 			<file name="Class-Spellslinger.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Class-Spellslinger.xml" />
 		</update>
 		
@@ -75,11 +75,11 @@
 					<td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td>
 				</tr>
 
-				<tr><td> 2nd</td><td class="left">Runic Alteration</td>
+				<tr><td> 2nd</td><td class="left">Slinger Specialty</td>
 					<td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td>
 				</tr>
 
-				<tr><td> 3rd</td><td class="left">Arcane Proficiency</td>
+				<tr><td> 3rd</td><td class="left">Arcane Proficiency (I)</td>
 					<td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td>
 				</tr>
 				
@@ -87,11 +87,11 @@
 					<td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td>
 				</tr>
 				
-				<tr><td> 5th</td><td class="left">Extra Attack</td>
+				<tr><td> 5th</td><td class="left">Bonus Attack</td>
 					<td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td>
 				</tr>
 				
-				<tr><td> 6th</td><td class="left">Runic Adept</td>
+				<tr><td> 6th</td><td class="left">Specialty Feature</td>
 					<td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td>
 				</tr>
 				
@@ -103,15 +103,15 @@
 					<td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td>
 				</tr>
 				
-				<tr><td> 9th</td><td class="left">Mastered Motion</td>
+				<tr><td> 9th</td><td class="left">Arcane Proficiency (II)</td>
 					<td>8</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td>
 				</tr>
 				
-				<tr><td>10th</td><td class="left">Arcane Proficiency II</td>
+				<tr><td>10th</td><td class="left">Specialty Feature</td>
 					<td>8</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td>
 				</tr>
 				
-				<tr><td>11th</td><td class="left">Extra AttacK II</td>
+				<tr><td>11th</td><td class="left">—</td>
 					<td>9</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td>
 				</tr>
 				
@@ -119,15 +119,15 @@
 					<td>9</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td>
 				</tr>
 				
-				<tr><td>13th</td><td class="left">—</td>
+				<tr><td>13th</td><td class="left">Specialty Feature</td>
 					<td>10</td><td>5</td><td>4</td><td>3</td><td>1</td><td>—</td>
 				</tr>
 				
-				<tr><td>14th</td><td class="left">Runic Mastery</td>
+				<tr><td>14th</td><td class="left">—</td>
 					<td>10</td><td>5</td><td>4</td><td>3</td><td>2</td><td>—</td>
 				</tr>
 				
-				<tr><td>15th</td><td class="left">—</td>
+				<tr><td>15th</td><td class="left">Specialty Feature</td>
 					<td>11</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td>
 				</tr>
 				
@@ -135,11 +135,11 @@
 					<td>11</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td>
 				</tr>
 				
-				<tr><td>17th</td><td class="left">—</td>
+				<tr><td>17th</td><td class="left">Arcana Proficiency (III)</td>
 					<td>12</td><td>5</td><td>4</td><td>4</td><td>2</td><td>2</td>
 				</tr>
 				
-				<tr><td>18th</td><td class="left">Extra Attack III</td>
+				<tr><td>18th</td><td class="left">Specialty Feature</td>
 					<td>12</td><td>5</td><td>4</td><td>4</td><td>3</td><td>2</td>
 				</tr>
 				
@@ -147,10 +147,19 @@
 					<td>12</td><td>5</td><td>4</td><td>4</td><td>3</td><td>3</td>
 				</tr>
 				
-				<tr><td>20th</td><td class="left">Arcane Proficiency III</td>
+				<tr><td>20th</td><td class="left">Master Slinger</td>
 					<td>12</td><td>5</td><td>4</td><td>4</td><td>3</td><td>3</td>
 				</tr>
 			</table>
+
+			<div element="ID_BBrew_CLASS_FEATURE_SlingerCasting" />
+			<div element="ID_BBrew_CLASS_FEATURE_SLINGER_EMPTY" />
+			<div element="ID_BBrew_CLASS_FEATURE_SLINGER_SPECIALTYid" />
+			<div element="ID_BBrew_CLASS_FEATURE_ArcaneProf(I)" />
+			<div element="ID_BBrew_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_Slingerid" />
+			<div element="ID_BBrew_CLASS_FEATURE_BonusAttack" />
+			<div element="ID_BBrew_CLASS_FEATURE_MASTER_SLINGER" />
+
 		</description>
 		<sheet display="false" >
 			<description>A Spellcaster that utilizes the lower levels of magic in a varity of means</description>
@@ -187,6 +196,8 @@
 			<grant type="Class Feature" id="ID_BBrew_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_Slinger" level="4" />
 			
 			<grant type="Class Feature" id="ID_BBrew_CLASS_FEATURE_BonusAttack" level="5" />
+
+			<grant type="Class Feature" id="ID_BBrew_CLASS_FEATURE_MASTER_SLINGER" level="20" />
 			
 			
 
@@ -260,13 +271,13 @@
 	<element name="Arcane Proficiency" type="Class Feature" source="B's Homebrew" id="ID_BBrew_CLASS_FEATURE_ArcaneProf(I)">
 		<description>
 			<p>At level 3, as you are becoming more adept with your spells you know add your dexterity modifier to Cantrip damage rolls.</p>
-			<p>At level 10, the bonus is replaced and you add your Spellcasting modifier to damage rolls. </p>
-			<p>At level 20, the effect upgrades and you add double your Spellcasting modifier. </p>
+			<p>At level 9, the bonus is replaced and you add your Spellcasting modifier to damage rolls. </p>
+			<p>At level 17, the effect upgrades and you add double your Spellcasting modifier. </p>
 		</description>
 		<sheet>
 			<description level="3"> Your dexterity modifier is added to damage rolls on Cantrips</description>
-			<description level="10"> Your Spellcasting modifier is added to damage rolls on Cantrips</description>
-			<description level="20"> Double your Spellcasting modifier is added to damage rolls on Cantrips</description>
+			<description level="9"> Your Spellcasting modifier is added to damage rolls on Cantrips</description>
+			<description level="17"> Double your Spellcasting modifier is added to damage rolls on Cantrips</description>
 			
 		</sheet>
 	</element>
@@ -296,6 +307,22 @@
 				<p>When you Cast a spell or a Cantrip as an action, you can cast an additional Cantrip as a Bonus Action</p>
 			</description>
 
+		</sheet>
+	</element>
+
+	<element name="Master Slinger" type="Class Feature" source="B's Homebrew" id="ID_BBrew_CLASS_FEATURE_MASTER_SLINGER">
+		<description>
+			<p>The arts of being a Spellslinger might appear easy, but there is a level of control and skill that is comparable to others with casting ability. 
+				Starting from 20th Level: You are no longer required to Prepare Spell from your Known spells to cast them. 
+				Instead, any spells you have in your Spellbook is a Spell you can cast during your turn.
+				You can also cast spells from other casters spell books but do follow the Prepared Spells rules, but you only require 1 min to prepare those spells.
+			</p>
+		</description>
+		<sheet>
+			<description>
+			<p>You no longer need to prepare spells, instead you directly cast from your known spells.</p>
+			<p>Additionally you can now cast using others spellbooks, which does follow the Prepared Spells rules but you can do so in 1min</p>
+			</description>
 		</sheet>
 	</element>
 
