@@ -4,7 +4,7 @@
 	<info>
 		<name>Spellslinger</name>
 			<description>Spellslinger from B's Homebrew</description>
-		<update version="0.4.1">
+		<update version="0.4.2">
 			<file name="Class-Spellslinger.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Class-Spellslinger.xml" />
 		</update>
 		
@@ -515,37 +515,37 @@
 		<description>
 			<p>The list of the Seal you unlock as you progress as a Cursed Spellslinger</p>
 
-			<h4>Modify Seal : Level 2</h4>
+			<h5>Modify Seal : Level 2</h5>
 			<p>A +1dx / -1dx are applied to two connected modifiers.</p>
 			<p>Example: Attack roll = Damage modifier / Saving Throw = Connected primary stat </p>
 			<p>The Die type id determined by Level. </p>
 			<p> [lvl1:1d6] [lvl5:1d8] [lvl10:1d10] [lvl15:1d12]	</p>
 
-			<h4>Exhange Seal : Level 2</h4>
+			<h5>Exhange Seal : Level 2</h5>
 			<p>Two Connected Modifiers are switched</p>
 			<p>Example: Skill modifier and its connected primary stat</p>
 
-			<h4>Fortune Seal : Level 6</h4>
+			<h5>Fortune Seal : Level 6</h5>
 			<p>Two parts of an Action or related Action are altered, giving one Advantage and the other Disadvantage.</p>
 			<p>Can be applied to certain things that normaly can't have advantage/disadvantage.</p>
 			<p>Example: Disadvantage on a To Hit roll but advantage on the Damage roll </p>
 
-			<h4>Halted Seal : Level 6</h4>
+			<h5>Halted Seal : Level 6</h5>
 			<p>Effects Movement Mpeed and AC.</p>
 			<p> A target creatures movement speed can be reduced in increments of 10ft; but for every 10ft removed the creature gains +1 AC.</p>
 			<p class="indent"> Effect can be reversed, lowering AC up to a maximum of [-3 AC] but increasing movement speed by 10ft for each point and causing the creature to no longer trigger attacks of oppertunity.</p>
 
-			<h4>Anchor Seal : Level 15</h4>
+			<h5>Anchor Seal : Level 15</h5>
 			<p>Only Works on Gaurded and Talent seal types.</p>
 			<p>Select an aspect and prevent a creature from using it entirely. You completely prevent a creature from being able to use a Skill or saving throw by locking it modifier.</p>
 			<p>The locked modifier is an auto fail condition, meaning the effected automatically fails a check made the locked modifier. In Exchange the value of the locked modifier is added to the connected aspect.</p>
 			<p> Example: A creature Constitution Save modifier gets locked, it now is unable to even make Con Saves but the modifier of the Saving throw is added to the creature Primary constitution modifier for the Seals duration.</p>
 
-			<h4>Blood Seal : Level 18</h4>
+			<h5>Blood Seal : Level 18</h5>
 			<p>As an Action, you target a creature that you can see.</p>
 			<p>If the Target creature has less HP then you, you can take an amount of damage so that you have an equal amount of HP. The target then needs to succeed a Charisma Saving Throw against your spell save DC or the amount of HP it has becomes it hit point maximum for the duration of the Seal.</p>
 		
-			<h4>Dead Man's Seal : Level 18</h4>
+			<h5>Dead Man's Seal : Level 18</h5>
 			<p>To activate, requires you to have a minimum of over 2/3rd your Max Hp.</p>
 			<p class="indent"> Can only be done once per long rest </p>
 			<p>As an action you target a creature you can see, they need to make a Charisma Saving Throw against your Spell save DC. If they fail, you deal damage to yourself and go down to 0hp in an unstable state; But in exchange, you get to pick one ability or feature that the target has on their statsheet and completely lock them out of using it for 24h.</p>
