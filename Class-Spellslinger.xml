@@ -4,7 +4,7 @@
 	<info>
 		<name>Spellslinger</name>
 			<description>Spellslinger from B's Homebrew</description>
-		<update version="0.3.4.2">
+		<update version="0.3.4.3">
 			<file name="Class-Spellslinger.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Class-Spellslinger.xml" />
 		</update>
 		
@@ -154,9 +154,9 @@
 
 			<div element="ID_BBrew_CLASS_FEATURE_SlingerCasting" />
 			<div element="ID_BBrew_CLASS_FEATURE_SLINGER_EMPTY" />
-			<div element="ID_BBrew_CLASS_FEATURE_SLINGER_SPECIALTYid" />
-			<div element="ID_BBrew_CLASS_FEATURE_ArcaneProf(I)" />
-			<div element="ID_BBrew_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_Slingerid" />
+			<div element="ID_BBrew_CLASS_FEATURE_SLINGER_SPECIALTY" />
+			<div element="ID_BBrew_CLASS_FEATURE_ArcaneProf(I)" />	
+			<div element="ID_BBrew_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_Slinger" />
 			<div element="ID_BBrew_CLASS_FEATURE_BonusAttack" />
 			<div element="ID_BBrew_CLASS_FEATURE_MASTER_SLINGER" />
 
@@ -264,7 +264,13 @@
 			<p> At the end of a long rest you forget any spell you haven't inscribed.</p>
 		</description>
 		<sheet>
-			<description></description>
+			<description>
+			<p><h4>Reaction:</h4> Make an Arcanae check on a spell can see that is cast with 60ft, the DC is the caster spellsave.</p>
+			<p> On a success, you memorize the spell </p>
+			<p> you can memorize an amount of spells equal to your intelligence modifier</p>
+			<p class="indent"> find remainder of the rules below </p>
+
+			</description>
 		</sheet>
 	</element>
 
@@ -349,8 +355,7 @@
 			<p class="indent"></p>
 			<div element="ID_BBrew_ARCHETYPE_FEATURE_MANIPULATOR_RUNIC(I)" />
 			<div element="ID_BBrew_ARCHETYPE_FEATURE_MANIPULATOR_RUNIC(II)" />
-			<div element="ID_BBrew_ARCHETYPE_FEATURE_MANIPULATOR_STRINGS" />
-			<div element="ID_BBrew_ARCHETYPE_FEATURE_MANIPULATOR_MasteredMotion" />
+			<div element="ID_BBrew_ARCHETYPE_FEATURE_MANIPULATOR_CONTROL" />
 			<div element="ID_BBrew_ARCHETYPE_FEATURE_MANIPULATOR_Potency" />
 			<div element="ID_BBrew_ARCHETYPE_FEATURE_MANIPULATOR_RUNIC(III)" />
 			<div element="ID_BBrew_ARCHETYPE_FEATURE_MANIPULATOR_Ricohet" />
