@@ -5,7 +5,7 @@
         <description>A new Homebrew Archetype for the Fighter class, available at 3rd level, the Disco Knight focuses on moving aroud the battle field, building a combo from unarmed attacks to deal devistating blows.
         </description>
 
-        <update version="0.3.4">
+        <update version="0.3.5">
             <file name="Fighter-DiscoKnight.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Fighter-DiscoKnight.xml" />
         </update>
     </info>
@@ -21,7 +21,7 @@
             <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_BEAT" />
             <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_THROWDOWN" />
             <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_PUNISH" />
-            <div element="ID____" />
+            <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_DANCEFLOOR" />
             <div element="id" />
 
         </description>
@@ -36,8 +36,7 @@
             <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_THROWDOWN" level="7" />
             <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_PUNISH" level="7" />
 
-            <grant type="Archetype Feature" id="ID____" level="10" />
-            <grant type="Archetype Feature" id="ID____" level="10" />
+            <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_DANCEFLOOR" level="10" />
 
             <grant type="Archetype Feature" id="ID____" level="15" />
             <!--Improved Combo text update-->
