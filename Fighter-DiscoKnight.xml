@@ -5,7 +5,7 @@
         <description>A new Homebrew Archetype for the Fighter class, available at 3rd level, the Disco Knight focuses on moving aroud the battle field, building a combo from unarmed attacks to deal devistating blows.
         </description>
 
-        <update version="0.3">
+        <update version="0.3.1">
             <file name="Fighter-DiscoKnight.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Fighter-DiscoKnight.xml" />
         </update>
     </info>
@@ -126,9 +126,10 @@
         </description>
         <sheet>
 
-            <description> At the start of Combat you designate a Target, on your turn, for each successful unarmed stirke against the Target builds combo up to an amount equal to your performance modifier. At the end of your turn, you designate another creature within 15ft as the target. 
+            <description> At the start of Combat you designate a Target, on your turn, each successful unarmed stirke against the Target builds combo up to an amount equal to your performance modifier. 
+            At the end of your turn, you designate another creature within 15ft as the target. 
             Combo can be spent on a Finisher.
-            Finisher: before knowing the resualts of an unarmed strike you can decide to do a Finisher; on a hit, all combo is spent and added to the attacks damage roll. on a miss, half your combo is spent.
+            A special unarmed strike were, before you know the resualt, you decide to spend your active combo and add it to the attacks damage roll. On a miss your combo is halved instead of fully spent.
             </description>
         </sheet>
     </element>
@@ -146,7 +147,7 @@
         <sheet>
             <description>As an attack action: You can make a grapple check against a creature using your performance. 
             Creatures grappled this way dont impeed movement and can be throw as a Finisher.
-            Throw creatures fly 15ft, taking 2d8 + Str Mod + combo in Bludgoening damage and fall prone. if throw at another creature they need to make a dc14 str save or fall prone as well. 
+            Throw creatures fly 15ft, taking 2d8 + Str Mod + combo in Bludgoening damage and fall prone. if thrown at another creature they need to make a dc14 str save or fall prone as well. 
             </description>
         </sheet>
     </element>
