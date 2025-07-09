@@ -5,7 +5,7 @@
         <description>A new Homebrew Archetype for the Fighter class, available at 3rd level, the Disco Knight focuses on moving aroud the battle field, building a combo from unarmed attacks to deal devistating blows.
         </description>
 
-        <update version="0.3.5">
+        <update version="0.3.6">
             <file name="Fighter-DiscoKnight.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Fighter-DiscoKnight.xml" />
         </update>
     </info>
@@ -158,7 +158,7 @@
         
         </description>
         <sheet>
-            <description>As an attack action: You can make a grapple check against a creature using your performance. 
+            <description usage="Attack action"> You can make a grapple check against a creature using your performance. 
             Creatures grappled this way dont impeed movement and can be throw as a Finisher.
             Throw creatures fly 15ft, taking 2d8 + Str Mod + combo in Bludgoening damage and fall prone. if thrown at another creature they need to make a dc14 str save or fall prone as well. 
             </description>
@@ -171,7 +171,7 @@
             <p class="indent">You can use this feture a number of times equal to you Profoiciency modifier and regain all uses after a long rest. </p>
         </description>
         <sheet>
-            <description>Reaction: change the current Target to a creature that spends its action attacking you, on your next turn you gain advantage on the first attack roll made against them.
+            <description action="Reaction" usage="{{proficiency:modifier}}/Long Rest"> Change the current Target to a creature that spends its action attacking you, on your next turn you gain advantage on the first attack roll made against them.
             Can be used a number of times equal your proficiency modifier and regain all uses after a long rest.
             </description>
         </sheet>
@@ -188,7 +188,7 @@
 
         </description>
         <sheet>
-            <description action="Action" count="charisma:modifier"> Manifest a 25x25ft square space, any creature with that space counts as a valid combo target.
+            <description action="Action" usage="{{charisma:modifier}}/Long rest"> Manifest a 25x25ft square space, any creature with that space counts as a valid combo target.
             Ally attacks within the space count to your combo; and missing a finisher punch while in the space only loses you 1/4th of you combo instead of half.
             
             </description>
