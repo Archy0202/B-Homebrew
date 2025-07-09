@@ -5,7 +5,7 @@
         <description>A new Homebrew Archetype for the Fighter class, available at 3rd level, the Disco Knight focuses on moving aroud the battle field, building a combo from unarmed attacks to deal devistating blows.
         </description>
 
-        <update version="0.2.5">
+        <update version="0.2.7">
             <file name="Fighter-DiscoKnight.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Fighter-DiscoKnight.xml" />
         </update>
     </info>
@@ -140,7 +140,7 @@
 
             <p>Additionally, when you perform a Finisher and have agrappled creature you can decide to throw the creature instead.</p>
             <p class="indent">you toss the creature up to 15ft; if the thrown creature hit another creature, the other creature needs to succeed a DC14 strenght saving throw or be knock prone.</p>
-            <p> If the thrown creature hits an object or creature it takes [2d8 + your strenght modifier + Combo value] in Bludgoening damage and falls prone.
+            <p> If the thrown creature hits an object or creature it takes [2d8 + your strenght modifier + Combo value] in Bludgoening damage and falls prone.</p>
         
         </description>
         <sheet>
