@@ -5,7 +5,7 @@
         <description>A new Homebrew Archetype for the Fighter class, available at 3rd level, the Disco Knight focuses on moving aroud the battle field, building a combo from unarmed attacks to deal devistating blows.
         </description>
 
-        <update version="0.3.2">
+        <update version="0.3.3">
             <file name="Fighter-DiscoKnight.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Fighter-DiscoKnight.xml" />
         </update>
     </info>
@@ -124,11 +124,24 @@
             <p>As part of an unarmed strike and before you know the resualt of the attack roll, you can decide to add the value of your combo to the attacks damage roll.</p>
             <p class="indent">On a hit, your combo is spent and resets to zero. If you miss the attack, your combo is Halved.</p> 
 
+            <h5>At 10th level</h5>
+            <p> From 10th level tyhe feature around combos are improved.</p>
+            <li>On your first turn of combat, you can spend your action to gain an initial amount of combo equal to your Charisma modifier.</li>
+            <li>The target reselect range is increased to 25ft.</li>
+
         </description>
         <sheet>
 
-            <description> At the start of Combat you designate a Target, on your turn, each successful unarmed stirke against the Target builds combo up to an amount equal to your performance modifier. 
+            <description level="3"> At the start of Combat you designate a Target, on your turn, each successful unarmed stirke against the Target builds combo up to an amount equal to your performance modifier. 
             At the end of your turn, you designate another creature within 15ft as the target. 
+            Combo can be spent on a Finisher.
+            A special unarmed strike were, before you know the resualt, you decide to spend your active combo and add it to the attacks damage roll. On a miss your combo is halved instead of fully spent.
+            </description>
+
+            <description level="10">
+            At the start of Combat you designate a Target, on your turn, each successful unarmed stirke against the Target builds combo up to an amount equal to your performance modifier. 
+            On your first turn of combat, you can spend your action to gain an initial amount of combo equal to your Charisma modifier.
+            At the end of your turn, you designate another creature within 25ft as the target. 
             Combo can be spent on a Finisher.
             A special unarmed strike were, before you know the resualt, you decide to spend your active combo and add it to the attacks damage roll. On a miss your combo is halved instead of fully spent.
             </description>
@@ -164,5 +177,28 @@
             </description>
         </sheet>
     </element>
+
+    <element name="Disco Dancefloor" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_DANCEFLOOR">
+        <description>
+            <p>Starting from 10th level, you can manifest the groove and beat of disco into battle</p>
+            <p> As an action, you can manifest a 25x25ft sqaure onto the battlefield; its covered in a vareity of lights and plays a funky tune to anyone in its space.</p>
+            <p class="indent"> It remains active for 1min, disapearing afterwards. You can use this ability an amount of times equal to uour Charisma modifier, and regain all uses after a long rest.</p>
+            <li> Any creature standing on the dancefloor is a valid target for combo's.</li>
+            <li>If an ally is standing on the dance floor and succeeds an attack roll against a creature that is also on the dance floor, the hit counts to your Combo.</li>
+            <li>When doing a Finisher on the dancefloor, if you miss the attack you only lose 1/4th of your combo instead of half</li>
+
+        </description>
+        <sheet>
+            <description action="Action" usage="{{Disco-dancefloor:count}}/Long rest"> Manifest a 25x25ft square space, any creature with that space counts as a valid combo target.
+            Ally attacks within the space count to your combo; and missing a finisher punch while in the space only loses you 1/4th of you combo instead of half.
+            
+            </description>
+        </sheet>
+        <rules>
+            <stat name="Disco-dancefloor:count" value="1" bonus="Disco Dancefloor" />
+            <stat name="Disco-dancefloor:count" value="charisma:modifier" bonus="Disco Dancefloor" />
+        </rules>
+    </element>
+
 
 </elements>
