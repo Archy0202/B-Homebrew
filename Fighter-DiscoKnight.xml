@@ -138,9 +138,9 @@
             <p>Starting from 7th level, when you have a Combo, you can use an attack action to make a grapple check against a creature with a performance check.
             If you succeed the grapple, you drag the creature into your "dance" and can move with them without the "reduced movement" penalty.</p>
 
-            <p>Additionally, when you perform a Finisher and have agrappled creature you can decide to throw the creature instead.</p>
-            <p class="indent">you toss the creature up to 15ft; if the thrown creature hit another creature, the other creature needs to succeed a DC14 strenght saving throw or be knock prone.</p>
-            <p> If the thrown creature hits an object or creature it takes [2d8 + your strenght modifier + Combo value] in Bludgoening damage and falls prone.</p>
+            <p>Additionally, when you perform a Finisher and have agrappled creature you can decide to throw the creature instead. </p>
+            <p class="indent">you toss the creature up to 15ft; if the thrown creature hit another creature, the other creature needs to succeed a DC14 strenght saving throw or be knock prone. </p>
+            <p> If the thrown creature hits an object or creature it takes [2d8 + your strenght modifier + Combo value] in Bludgoening damage and falls prone. </p>
         
         </description>
         <sheet>
