@@ -23,7 +23,7 @@
             <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_PUNISH" />
             <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_DANCEFLOOR" />
             <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_CAPTIVATED" />
-            <div element="id" />
+            <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_PANIC" />
 
         </description>
         <sheet display="false">
@@ -42,7 +42,7 @@
             <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_CAPTIVATED" level="15" />
             <!--Improved Combo text update-->
             
-            <grant type="Archetype Feature" id="ID____" level="18" />
+            <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_PANIC" level="18" />
         </rules>
     </element>
 
@@ -208,6 +208,23 @@
             Force Combo targets (including dancefloor) to make a Dc14 wisdom Saving Throw or become Charmed by you.
             Charmed creature will spend their turns dancing and get to remake the save and the end of their turn, becoming immune to the effect for 1h on a success.
             </description>
+        </sheet>
+    </element>
+
+    <element name="Panic at the Disco" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_PANIC">
+        <description>
+            <p> Starting from 18th level, your Dancefloor grows and gains additional features. </p>
+            <li>The size of the Dancefloor is increaded to a 35x35ft square.</li>
+            <li>If you start your turn on the Dancefloor, you automatically gain an amount of Combo equal to your Charisma Modifier.</li>
+            <li>You dont lose any combo when missing a finisher attack while on the dancefloor.</li>
+
+            <h5>Special Action</h5>
+            <p>When you have an Active Dancefloor, on your turn as an action, you can blow it up.</p>
+            <p>Targeting everything standig on the dancefloor, you deal an amount of force damage equal to 2x your active combo as the whole thing goes up in a flash and shatters.</p>
+            <p>The dancefloor and all its effects end instantly on detonation</p>
+        </description>
+        <sheet>
+            <description></description>
         </sheet>
     </element>
 
