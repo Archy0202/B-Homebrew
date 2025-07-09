@@ -114,13 +114,19 @@
             <h5>Following the Beat</h5>
             <p>At the start of Combat, you designate an enemy that becomes your Target.</p>
             <p>On your turn, if you attack the "Target" and manage to hit with an unarmed strike you start a combo. Combo builds for each successful unarmed strike you make against the "Target" up to a value equal to your performance modifier. </p>
-            <p class="indent"> At the end of your turn, the creature tat is the "Target" changes; you pick another creature within 15ft of you and they become the next target. </p>
+            <p class="indent"> At the end of your turn, the creature that is the "Target" changes; you pick another creature within 15ft of you and they become the next target. </p>
 
-
+            <h5>Spending Combo</h5>
+            <p>When you have a combo going, as part of an attack you can do a Finisher; a stronger punch were you pend the combo you have built up.</p>
+            <p>As part of an unarmed strike and before you know the resualt of the attack roll, you can decide to add the value of your combo to the attacks damage roll.</p>
+            <p class="indent">On a hit, your combo is spent and resets to zero. If you miss the attack, your combo is Halved.</p> 
 
         </description>
         <sheet>
-            <description>Fuck</description>
+            <description>On your turn, succeeding an unarmed stirke you build combo up to an amount equal to your performance modifier. Combo can be spent on a Finisher.</description>
+        </sheet>
+        <sheet>
+            <description>Finisher: before knowing the resualts of an unarmed strike you can decide to do a Finisher; on a hit, all combo is spent and added to the attacks damage roll. on a miss, half your combo is spent.</description>
         </sheet>
     </element>
 
