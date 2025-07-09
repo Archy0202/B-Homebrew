@@ -5,7 +5,7 @@
         <description>A new Homebrew Archetype for the Fighter class, available at 3rd level, the Disco Knight focuses on moving aroud the battle field, building a combo from unarmed attacks to deal devistating blows.
         </description>
 
-        <update version="0.3.3">
+        <update version="0.3.4">
             <file name="Fighter-DiscoKnight.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Fighter-DiscoKnight.xml" />
         </update>
     </info>
@@ -189,15 +189,11 @@
 
         </description>
         <sheet>
-            <description action="Action" usage="{{Disco-dancefloor:count}}/Long rest"> Manifest a 25x25ft square space, any creature with that space counts as a valid combo target.
+            <description action="Action" count="charisma:modifier"> Manifest a 25x25ft square space, any creature with that space counts as a valid combo target.
             Ally attacks within the space count to your combo; and missing a finisher punch while in the space only loses you 1/4th of you combo instead of half.
             
             </description>
         </sheet>
-        <rules>
-            <stat name="Disco-dancefloor:count" value="1" bonus="Disco Dancefloor" />
-            <stat name="Disco-dancefloor:count" value="charisma:modifier" bonus="Disco Dancefloor" />
-        </rules>
     </element>
 
 
