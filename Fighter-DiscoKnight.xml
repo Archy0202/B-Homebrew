@@ -22,6 +22,7 @@
             <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_THROWDOWN" />
             <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_PUNISH" />
             <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_DANCEFLOOR" />
+            <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_CAPTIVATED" />
             <div element="id" />
 
         </description>
@@ -38,7 +39,7 @@
 
             <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_DANCEFLOOR" level="10" />
 
-            <grant type="Archetype Feature" id="ID____" level="15" />
+            <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_CAPTIVATED" level="15" />
             <!--Improved Combo text update-->
             
             <grant type="Archetype Feature" id="ID____" level="18" />
@@ -131,18 +132,18 @@
         </description>
         <sheet>
 
-            <description level="3"> At the start of Combat you designate a Target, on your turn, each successful unarmed stirke against the Target builds combo up to an amount equal to your performance modifier. 
-            At the end of your turn, you designate another creature within 15ft as the target. 
+            <description level="3"> At the start of Combat designate a Target, on your turn, each successful unarmed stirke against the Target builds combo up to an amount equal to your performance modifier. 
+            At the end of each of your turns, you designate another creature within 15ft as the new target. 
             Combo can be spent on a Finisher.
-            A special unarmed strike were, before you know the resualt, you decide to spend your active combo and add it to the attacks damage roll. On a miss your combo is halved instead of fully spent.
+            A special unarmed strike were, before you know the resualt, decide to spend your active combo and add it to the attacks damage roll. On a miss your combo is halved instead of fully spent.
             </description>
 
             <description level="10">
             At the start of Combat you designate a Target, on your turn, each successful unarmed stirke against the Target builds combo up to an amount equal to your performance modifier. 
-            On your first turn of combat, you can spend your action to gain an initial amount of combo equal to your Charisma modifier.
-            At the end of your turn, you designate another creature within 25ft as the target. 
+            On your first turn of combat, you can spend your bonus action to gain an initial amount of combo equal to your Charisma modifier.
+            At the end of each of your turns, you designate another creature within 25ft as the new target. 
             Combo can be spent on a Finisher.
-            A special unarmed strike were, before you know the resualt, you decide to spend your active combo and add it to the attacks damage roll. On a miss your combo is halved instead of fully spent.
+            A special unarmed strike were, before you know the resualt, decide to spend your active combo and add it to the attacks damage roll. On a miss your combo is halved instead of fully spent.
             </description>
         </sheet>
     </element>
@@ -158,21 +159,20 @@
         
         </description>
         <sheet>
-            <description usage="Attack action"> You can make a grapple check against a creature using your performance. 
+            <description usage="Attack action"> When you have a Combo, make a grapple check against a creature using your performance. 
             Creatures grappled this way dont impeed movement and can be throw as a Finisher.
-            Throw creatures fly 15ft, taking 2d8 + Str Mod + combo in Bludgoening damage and fall prone. if thrown at another creature they need to make a dc14 str save or fall prone as well. 
+            Thrown creatures fly 15ft, taking 2d8 + Str Mod + combo in Bludgoening damage and fall prone. if thrown at another creature they need to make a dc14 str save or fall prone as well. 
             </description>
         </sheet>
     </element>
 
     <element name="Punisher" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_PUNISH">
         <description>
-            <p>From 7th level, when you get attacked by a creature, you can spend you reaction to change the attacking creature into the combo target. Additionally, as part of this Targt chnage, you get advantage on the next attack roll you make against them. </p>
+            <p>From 7th level, when you get attacked by a creature, you can spend you reaction to change the attacking creature into the combo target. Additionally, as part of this Target change, you get advantage on the next attack roll you make against them. </p>
             <p class="indent">You can use this feture a number of times equal to you Profoiciency modifier and regain all uses after a long rest. </p>
         </description>
         <sheet>
             <description action="Reaction" usage="{{proficiency}}/Long Rest"> Change the current Target to a creature that spends its action attacking you, on your next turn you gain advantage on the first attack roll made against them.
-            Can be used a number of times equal your proficiency modifier and regain all uses after a long rest.
             </description>
         </sheet>
     </element>
@@ -180,20 +180,35 @@
     <element name="Disco Dancefloor" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_DANCEFLOOR">
         <description>
             <p>Starting from 10th level, you can manifest the groove and beat of disco into battle</p>
-            <p> As an action, you can manifest a 25x25ft sqaure onto the battlefield; its covered in a vareity of lights and plays a funky tune to anyone in its space.</p>
+            <p> As an action, you can manifest a 25x25ft sqaure around you onto the battlefield; its covered in a vareity of lights and plays a funky tune to anyone in its space.</p>
             <p class="indent"> It remains active for 1min, disapearing afterwards. You can use this ability an amount of times equal to uour Charisma modifier, and regain all uses after a long rest.</p>
-            <li> Any creature standing on the dancefloor is a valid target for combo's.</li>
-            <li>If an ally is standing on the dance floor and succeeds an attack roll against a creature that is also on the dance floor, the hit counts to your Combo.</li>
+            <li>Any creature standing on the dancefloor is a valid target for combo's.</li>
+            <li>If an ally is standing on the dance floor and succeeds an attack roll against a creature that is also on the dancefloor, the hit counts to your Combo.</li>
             <li>When doing a Finisher on the dancefloor, if you miss the attack you only lose 1/4th of your combo instead of half</li>
 
         </description>
         <sheet>
-            <description action="Action" usage="{{charisma:modifier}}/Long rest"> Manifest a 25x25ft square space, any creature with that space counts as a valid combo target.
+            <description action="Action" usage="{{charisma:modifier}}/Long rest"> Manifest a 25x25ft square space around you, any creature In the space counts as a valid combo target.
             Ally attacks within the space count to your combo; and missing a finisher punch while in the space only loses you 1/4th of you combo instead of half.
-            
             </description>
         </sheet>
     </element>
 
+    <element name="Captivated Audience" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_CAPTIVATED">
+        <description>
+            <p>Starting from 15th level, you can really draw your target into the motions of dance and disco.</p>
+            <p>On your turn, as a bonus action, you can force Combo targets (including Dancefloor targets) to make a DC14 wisdom saving throw or become charmed by you.</p>
+            <p>Effected creatures will spend their turn dancing and get to remake the Save at the end of their turn.</p>
+            <p>A successful saving throw makes the create immune to the effect for 1h.</p>
+            <p class="indent">As part of this action, regardless if the target succeds the save ot not, you select a new combo target.</p> 
+
+        </description>
+        <sheet>
+            <description action="Bonus action">
+            Force Combo targets (including dancefloor) to make a Dc14 wisdom Saving Throw or become Charmed by you.
+            Charmed creature will spend their turns dancing and get to remake the save and the end of their turn, becoming immune to the effect for 1h on a success.
+            </description>
+        </sheet>
+    </element>
 
 </elements>
