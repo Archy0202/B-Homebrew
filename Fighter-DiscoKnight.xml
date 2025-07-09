@@ -5,7 +5,7 @@
         <description>A new Homebrew Archetype for the Fighter class, available at 3rd level, the Disco Knight focuses on moving aroud the battle field, building a combo from unarmed attacks to deal devistating blows.
         </description>
 
-        <update version="0.2.4">
+        <update version="0.2.5">
             <file name="Fighter-DiscoKnight.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Fighter-DiscoKnight.xml" />
         </update>
     </info>
@@ -19,7 +19,7 @@
             <div element="ID_BBrew_ARCHETYPE_FEATURE_Proficiency" />
             <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_BLUNT" />
             <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_BEAT" />
-            <div element="ID____" />
+            <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_THROWDOWN" />
             <div element="ID____" />
             <div element="ID____" />
         </description>
@@ -30,8 +30,9 @@
             <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_Proficiency" level="3" />
             <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_BLUNT" level="3" />
             <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_BEAT" level="3" />
+            <grant type="Archetype Feature" id="id" level="3" />
 
-            <grant type="Archetype Feature" id="ID____" level="7" />
+            <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_THROWDOWN" level="7" />
             <grant type="Archetype Feature" id="ID____" level="7" />
 
             <grant type="Archetype Feature" id="ID____" level="10" />
@@ -106,6 +107,7 @@
         </sheet>
     </element>
 
+
     <element name="To the Beat" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_BEAT">
         <description>
             <p> Starting from 3rd level you gain a disco beat. A special rythm only you can hear that drives you during combat. </p>
@@ -123,10 +125,29 @@
 
         </description>
         <sheet>
-            <description>On your turn, succeeding an unarmed stirke you build combo up to an amount equal to your performance modifier. Combo can be spent on a Finisher.</description>
+
+            <description> At the start of Combat you designate a Target, on your turn, for each successful unarmed stirke against the Target builds combo up to an amount equal to your performance modifier. At the end of your turn, you designate another creature within 15ft as the target. 
+            Combo can be spent on a Finisher.
+            Finisher: before knowing the resualts of an unarmed strike you can decide to do a Finisher; on a hit, all combo is spent and added to the attacks damage roll. on a miss, half your combo is spent.
+            </description>
         </sheet>
+    </element>
+
+    <element name="Funky Throwdown" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_THROWDOWN">
+        <description>
+            <p>Starting from 7th level, when you have a Combo, you can use an attack action to make a grapple check against a creature with a performance check.
+            If you succeed the grapple, you drag the creature into your "dance" and can move with them without the "reduced movement" penalty.</p>
+
+            <p>Additionally, when you perform a Finisher and have agrappled creature you can decide to throw the creature instead.</p>
+            <p class="indent">you toss the creature up to 15ft; if the thrown creature hit another creature, the other creature needs to succeed a DC14 strenght saving throw or be knock prone.</p>
+            <p> If the thrown creature hits an object or creature it takes [2d8 + your strenght modifier + Combo value] in Bludgoening damage and falls prone.
+        
+        </description>
         <sheet>
-            <description>Finisher: before knowing the resualts of an unarmed strike you can decide to do a Finisher; on a hit, all combo is spent and added to the attacks damage roll. on a miss, half your combo is spent.</description>
+            <description>As an attack action: You can make a grapple check against a creature using your performance. 
+            Creatures grappled this way dont impeed movement and can be throw as a Finisher.
+            Throw creatures fly 15ft, taking 2d8 + Str Mod + combo in Bludgoening damage and fall prone. if throw at another creature they need to make a dc14 str save or fall prone as well. 
+            </description>
         </sheet>
     </element>
 
