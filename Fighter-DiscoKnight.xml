@@ -5,7 +5,7 @@
         <description>A new Homebrew Archetype for the Fighter class, available at 3rd level, the Disco Knight focuses on moving aroud the battle field, building a combo from unarmed attacks to deal devistating blows.
         </description>
 
-        <update version="0.3.1">
+        <update version="0.3.2">
             <file name="Fighter-DiscoKnight.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Fighter-DiscoKnight.xml" />
         </update>
     </info>
@@ -20,8 +20,10 @@
             <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_BLUNT" />
             <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_BEAT" />
             <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_THROWDOWN" />
+            <div element="ID_BBrew_ARCHETYPE_FEATURE_DISCO_PUNISH" />
             <div element="ID____" />
-            <div element="ID____" />
+            <div element="id" />
+
         </description>
         <sheet display="false">
             <description></description>
@@ -30,10 +32,9 @@
             <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_Proficiency" level="3" />
             <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_BLUNT" level="3" />
             <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_BEAT" level="3" />
-            <grant type="Archetype Feature" id="id" level="3" />
 
             <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_THROWDOWN" level="7" />
-            <grant type="Archetype Feature" id="ID____" level="7" />
+            <grant type="Archetype Feature" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_PUNISH" level="7" />
 
             <grant type="Archetype Feature" id="ID____" level="10" />
             <grant type="Archetype Feature" id="ID____" level="10" />
@@ -148,6 +149,18 @@
             <description>As an attack action: You can make a grapple check against a creature using your performance. 
             Creatures grappled this way dont impeed movement and can be throw as a Finisher.
             Throw creatures fly 15ft, taking 2d8 + Str Mod + combo in Bludgoening damage and fall prone. if thrown at another creature they need to make a dc14 str save or fall prone as well. 
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Punisher" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_PUNISH">
+        <description>
+            <p>From 7th level, when you get attacked by a creature, you can spend you reaction to change the attacking creature into the combo target. Additionally, as part of this Targt chnage, you get advantage on the next attack roll you make against them. </p>
+            <p class="indent">You can use this feture a number of times equal to you Profoiciency modifier and regain all uses after a long rest. </p>
+        </description>
+        <sheet>
+            <description>Reaction: change the current Target to a creature that spends its action attacking you, on your next turn you gain advantage on the first attack roll made against them.
+            Can be used a number of times equal your proficiency modifier and regain all uses after a long rest.
             </description>
         </sheet>
     </element>
