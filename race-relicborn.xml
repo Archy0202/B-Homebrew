@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Relicborn</name>
-        <update version="0.1.2">
+        <update version="0.1.3">
             <file name="race-relicborn.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-relicborn.xml" />
         </update>
     </info>
