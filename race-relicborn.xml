@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Relicborn</name>
-        <update version="0.1.3">
+        <update version="0.1.4">
             <file name="race-relicborn.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-relicborn.xml" />
         </update>
     </info>
@@ -34,7 +34,7 @@
             <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_DANCE_WITH_DEATH" />
             <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_ETERNAL_PARTY" />
             <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_REMEMBRANC" />
-            <grant type="Racial Trait" id="ID____" />
+            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_REVELR" />
         </rules>
     </element>
 
