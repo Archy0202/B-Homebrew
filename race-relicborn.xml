@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Relicborn</name>
-        <update version="0.1.5">
+        <update version="0.1.6">
             <file name="race-relicborn.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-relicborn.xml" />
         </update>
     </info>
@@ -31,10 +31,15 @@
         </description>
         <sheet display="false" />
         <rules>
-            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_DANCE_WITH_DEATH" />
-            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_ETERNAL_PARTY" />
-            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_REMEMBRANC" />
-            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_REVELR" />
+           <stat name="dexterity" value="1" />
+           <stat name="charisma" value="2" />
+           <grant type="size" id="ID_SIZE_MEDIUM" />
+           <stat name="innate speed" value="30" bonus="base" />
+           <grant type="Langauage" id="ID_LANGUAGE_COMMON" />
+           <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_DANCE_WITH_DEATH" />
+           <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_ETERNAL_PARTY" />
+           <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_REMEMBRANC" />
+           <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_REVELR" />
         </rules>
     </element>
 
