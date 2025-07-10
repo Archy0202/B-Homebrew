@@ -2,12 +2,12 @@
 <elements>
     <info>
         <name>Relicborn</name>
-        <update version="0.1">
-            <file name="race-relicborn.xml" url="" />
+        <update version="0.1.1">
+            <file name="race-relicborn.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-relicborn.xml" />
         </update>
     </info>
 
-    <element name="Relicborn" type="Race" source="B's Homebrew" id="ID_BBrew_RACE_RELICBORN">
+    <element name="Relicborn" type="Race" source="Crooked Moon" id="ID_BBrew_RACE_RELICBORN">
         <description>
             <p></p>
             <h4>HEADING</h4>
@@ -18,20 +18,60 @@
             <p class="indent"></p>
             <h4>name Traits</h4>
             <p></p>
-            <p class="indent"><strong><em>Ability Score Increase.</em></strong> _______</p>
-            <p class="indent"><strong><em>Age.</em></strong> _______</p>
-            <p class="indent"><strong><em>Alignment.</em></strong> _______</p>
-            <p class="indent"><strong><em>Size.</em></strong> _______</p>
-            <p class="indent"><strong><em>Speed.</em></strong> _______</p>
-            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______</p>
-            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______</p>
-            <p class="indent"><strong><em>Languages.</em></strong> _______</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma is increaded by 2 and your dexterity by 1</p>
+            <p class="indent"><strong><em>Age.</em></strong> No, i am undead</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Lmao, thats funny</p>
+            <p class="indent"><strong><em>Size.</em></strong> Medium creature</p>
+            <p class="indent"><strong><em>Speed.</em></strong> 30 feet walking</p>
+            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> DAnce with death</p>
+            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> Eternal party</p>
+            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> Moment of remembrance</p>
+            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> Soul of revelry</p>
+            <p class="indent"><strong><em>Languages.</em></strong> common. i guess</p>
         </description>
         <sheet display="false" />
         <rules>
-            <grant type="Racial Trait" id="ID____" />
+            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_DANCE_WITH_DEATH" />
+            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_ETERNAL_PARTY" />
+            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_REMEMBRANC" />
             <grant type="Racial Trait" id="ID____" />
         </rules>
+    </element>
+
+    <element name="Dance with Death" type="Racial Trait" source="Crooked Moon" id="ID_BBrew_RACIAL_TRAIT_DANCE_WITH_DEATH">
+        <description>
+            <p> As a bonus action, you can make a DC15 Charisma (Musical Instrument or performance) Check. if you succeds, the next attack roll you make before the end of your turn has advantage. If you succed on the check by 5 or more, you can roll one of your Hit Point Dice (Without expending it) and gain Temporary Hit Points equal to the number rolled</p>
+        </description>
+        <sheet>
+            <description> Test Text</description>
+        </sheet>
+    </element>
+
+    <element name="Eternal Party" type="Racial Trait" source="Crooked Moon" id="ID_BBrew_RACIAL_TRAIT_ETERNAL_PARTY">
+        <description>
+        <p> You dont need to sleep and you can finish a Long rest in 4 hours if you spend those hours enjoying revelry. such as telling stories or playing an instrument. </p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+    </element>
+
+    <element name="Moment of Remembrance" type="Racial Trait" source="Crooked Moon" id="ID_BBrew_RACIAL_TRAIT_REMEMBRANCE">
+        <description>
+            <p>When another creature you can see within 30 feet of you fails a D20 Test, you can take a Reaction to let the target add 1d4 to the total, potentially causing it to succeed. once this trait changes a failed roll into a success, you cant use it again until you finish a Short or Long rest.</p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+    </element>
+
+    <element name="Soul of Revelry" type="Racial Trait" source="Crooked Moon" id="ID_BBrew_RACIAL_TRAIT_REVELRY">
+        <description>
+            <p>You gain proficiency in the performance skill or with one kind of Musical instrument.</p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
     </element>
 
 </elements>
