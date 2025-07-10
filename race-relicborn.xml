@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Relicborn</name>
-        <update version="0.1.4">
+        <update version="0.1.5">
             <file name="race-relicborn.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-relicborn.xml" />
         </update>
     </info>
@@ -23,10 +23,10 @@
             <p class="indent"><strong><em>Alignment.</em></strong> Lmao, thats funny</p>
             <p class="indent"><strong><em>Size.</em></strong> Medium creature</p>
             <p class="indent"><strong><em>Speed.</em></strong> 30 feet walking</p>
-            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> DAnce with death</p>
-            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> Eternal party</p>
-            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> Moment of remembrance</p>
-            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> Soul of revelry</p>
+            <p class="indent"><strong><em>Dance with Death.</em></strong> Tecxt here </p>
+            <p class="indent"><strong><em>Eternal Party.</em></strong> Text here </p>
+            <p class="indent"><strong><em>Moment of Remembrance.</em></strong> Text here </p>
+            <p class="indent"><strong><em>Soul of Revelry.</em></strong> Text here </p>
             <p class="indent"><strong><em>Languages.</em></strong> common. i guess</p>
         </description>
         <sheet display="false" />
