@@ -1,0 +1,37 @@
+<? xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Relicborn</name>
+        <update version="0.1">
+            <file name="race-relicborn.xml" url="" />
+        </update>
+    </info>
+
+    <element name="Relicborn" type="Race" source="B's Homebrew" id="ID_BBrew_RACE_RELICBORN">
+        <description>
+            <p></p>
+            <h4>HEADING</h4>
+            <p></p>
+            <p class="indent"></p>
+            <h4>HEADING</h4>
+            <p></p>
+            <p class="indent"></p>
+            <h4>name Traits</h4>
+            <p></p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> _______</p>
+            <p class="indent"><strong><em>Age.</em></strong> _______</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> _______</p>
+            <p class="indent"><strong><em>Size.</em></strong> _______</p>
+            <p class="indent"><strong><em>Speed.</em></strong> _______</p>
+            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______</p>
+            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______</p>
+            <p class="indent"><strong><em>Languages.</em></strong> _______</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Racial Trait" id="ID____" />
+            <grant type="Racial Trait" id="ID____" />
+        </rules>
+    </element>
+
+</elements>
