@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Relicborn</name>
-        <update version="0.1.7">
+        <update version="0.2">
             <file name="race-relicborn.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-relicborn.xml" />
         </update>
     </info>
@@ -74,7 +74,7 @@
         <description>
             <p>You gain proficiency in the performance skill or with one kind of Musical instrument.</p>
         </description>
-        <sheet display="false">
+        <sheet display="false"/>
         <rules>
             <select type="Proficiency" name="performance" supports="ID_PROFICIENCY_SKILL_PERFORMANCE|" />
             <select type="Proficiency" name="Musical instrument" supports="Musical Instrument" />
