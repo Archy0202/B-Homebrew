@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Relicborn</name>
-        <update version="0.3.1">
+        <update version="0.3.2">
             <file name="race-relicborn.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-relicborn.xml" />
         </update>
     </info>
@@ -40,6 +40,8 @@
            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_DANCE_WITH_DEATH" />
            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_REMEMBRANCE" />
            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_REVELRY" />
+           
+           <grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_PERFORMANCE" />
         </rules>
     </element>
 
@@ -75,9 +77,7 @@
             <p>You gain proficiency in the performance skill or with one kind of Musical instrument.</p>
         </description>
         <sheet display="false"/>
-        <rules>
-            <grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_PERFORMANCE" />
-        </rules>
+     
     </element>
     
 
