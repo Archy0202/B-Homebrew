@@ -36,8 +36,8 @@
            <grant type="size" id="ID_SIZE_MEDIUM" />
            <stat name="innate speed" value="30" bonus="base" />
            <grant type="Langauage" id="ID_LANGUAGE_COMMON" />
-           <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_DANCE_WITH_DEATH" />
            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_ETERNAL_PARTY" />
+           <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_DANCE_WITH_DEATH" />
            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_REMEMBRANCE" />
            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_REVELRY" />
         </rules>
@@ -48,7 +48,7 @@
             <p> As a bonus action, you can make a DC15 Charisma (Musical Instrument or performance) Check. if you succeds, the next attack roll you make before the end of your turn has advantage. If you succed on the check by 5 or more, you can roll one of your Hit Point Dice (Without expending it) and gain Temporary Hit Points equal to the number rolled</p>
         </description>
         <sheet>
-            <description> Test Text</description>
+            <description action="Bonus Acion">Make a DC15 charisma (instrument or performance) check, on a success, get advantage on the first attack you make before the end of your turn. Additionally beating the dc by 5 or more grants one hit dice worth of temp hp.</description>
         </sheet>
     </element>
 
@@ -57,7 +57,7 @@
         <p> You dont need to sleep and you can finish a Long rest in 4 hours if you spend those hours enjoying revelry. such as telling stories or playing an instrument. </p>
         </description>
         <sheet>
-            <description></description>
+            <description>You dont require sleep, and can finish a long rest in 4h if you spend those hours enjoying revelry,</description>
         </sheet>
     </element>
 
@@ -66,7 +66,7 @@
             <p>When another creature you can see within 30 feet of you fails a D20 Test, you can take a Reaction to let the target add 1d4 to the total, potentially causing it to succeed. once this trait changes a failed roll into a success, you cant use it again until you finish a Short or Long rest.</p>
         </description>
         <sheet>
-            <description></description>
+            <description action="Reaction">Add 1d4 to an allies failed d20 roll you can see with 30ft. Once this trait changes a failed roll into a success, you cant use it again until you finish a Short or Long rest.</description>
         </sheet>
     </element>
 
@@ -74,9 +74,12 @@
         <description>
             <p>You gain proficiency in the performance skill or with one kind of Musical instrument.</p>
         </description>
-        <sheet>
-            <description></description>
-        </sheet>
+        <sheet display="false">
+        <rules>
+            <select type="Proficiency" name="performance" supports="ID_PROFICIENCY_SKILL_PERFORMANCE|" />
+            <select type="Proficiency" name="Musical instrument" supports="Musical Instrument" />
+        </rules>
     </element>
+    
 
 </elements>
