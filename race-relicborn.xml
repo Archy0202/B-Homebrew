@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Relicborn</name>
-        <update version="0.3">
+        <update version="0.3.1">
             <file name="race-relicborn.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-relicborn.xml" />
         </update>
     </info>
@@ -76,7 +76,7 @@
         </description>
         <sheet display="false"/>
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_OR_DOUBLE_PERFORMANCE" />
+            <grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_PERFORMANCE" />
         </rules>
     </element>
     
