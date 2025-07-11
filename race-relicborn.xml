@@ -76,7 +76,7 @@
         </description>
         <sheet display="false"/>
         <rules>
-            <select type="Proficiency" name="Soul of Revelry" supports="Musical Instrument|ID_PROFICIENCY_SKILL_PERFORMANCE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_OR_DOUBLE_PERFORMANCE" />
         </rules>
     </element>
     
