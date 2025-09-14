@@ -2,10 +2,52 @@
 <elements>
     <info>
         <name>Void Cube</name>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="race-VoidCube.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-VoidCube.xml" />
         </update>
     </info>
+
+    <element name="Void Cube" type="Race" source="B's Homebrew" id="ID_BBrew_RACE_Void_Cube">
+
+        <description>
+            <p></p>
+            <h4>HEADING</h4>
+            <p></p>
+            <p class="indent"></p>
+            <h4>HEADING</h4>
+            <p></p>
+            <p class="indent"></p>
+            <h4>name Traits</h4>
+            <p></p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your intelligence is increased by 2, and your dexterity by 1 </p>
+           
+            <p class="indent"><strong><em>Age.</em></strong> Void Cubes dont have a natural life cycle, they are created</p>
+           
+            <p class="indent"><strong><em>Alignment.</em></strong> Void Cubes dont adhear to standard alignments, but on a standard basis, one of the Chaotic alignments. </p>
+           
+            <p class="indent"><strong><em>Size.</em></strong> The Projected body of a Void Cube can be most known sizes, but dont exceed the scale of a Small or Medium creature. </p>
+           
+            <p class="indent"><strong><em>Speed.</em></strong> 30ft Walking speed, Additionally they can innately levitate on the spot</p>
+           
+            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______ </p>
+           
+            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______ </p>
+
+            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______ </p>
+
+            <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______ </p>
+
+            <p class="indent"><strong><em>Languages.</em></strong> Void Cubes can innately speak and understand Common And Primordial. </p>
+        </description>
+
+        <sheet display="false" />
+
+        <rules>
+            <grant type="Racial Trait" id="ID____" />
+            <grant type="Racial Trait" id="ID____" />
+        </rules>
+    </element>
+
 
 
 </elements>
