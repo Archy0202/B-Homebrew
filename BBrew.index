@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
     <info>
-        <update version="0.5">
+        <update version="0.6">
             <file name="BBrew.index" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/BBrew.index" />
         </update>
     </info>
@@ -9,5 +9,6 @@
             <file name="Class-Spellslinger.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Class-Spellslinger.xml"/>
             <file name="Fighter-DiscoKnight.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Fighter-DiscoKnight.xml" />
             <file name="race-relicborn.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-relicborn.xml" />
+            <file name="race-VoidCube.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-VoidCube.xml" />
         </files>
 </index>

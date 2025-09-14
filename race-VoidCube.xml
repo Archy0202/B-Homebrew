@@ -2,8 +2,8 @@
 <elements>
     <info>
         <name>Void Cube</name>
-        <update version="0.0.1">
-            <file name="race-VoidCube.xml" url="baseurl/name" />
+        <update version="0.0.2">
+            <file name="race-VoidCube.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-VoidCube.xml" />
         </update>
     </info>
 
