@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>Void Cube</name>
+        <update version="0.0.1">
+            <file name="race-VoidCube.xml" url="baseurl/name" />
+        </update>
+    </info>
+
+
+</elements>
