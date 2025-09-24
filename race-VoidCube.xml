@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Void Cube</name>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="race-VoidCube.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-VoidCube.xml" />
         </update>
     </info>
@@ -21,17 +21,17 @@
             <p></p>
             <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your intelligence is increased by 2, and your dexterity by 1 </p>
            
-            <p class="indent"><strong><em>Age.</em></strong> Void Cubes dont have a natural life cycle, they are created</p>
+            <p class="indent"><strong><em>Age.</em></strong> Void Cubes dont have a natural life cycle, they are created. This also means they are uffected by the passege of time magic that would age them.</p>
            
             <p class="indent"><strong><em>Alignment.</em></strong> Void Cubes dont adhear to standard alignments, but on a standard basis, one of the Chaotic alignments. </p>
            
-            <p class="indent"><strong><em>Size.</em></strong> The Projected body of a Void Cube can be most known sizes, but dont exceed the scale of a Small or Medium creature. </p>
+            <p class="indent"><strong><em>Size.</em></strong> The Projected body of a Void Cube varies largely, but all are considered Medium creatures. </p>
            
             <p class="indent"><strong><em>Speed.</em></strong> 30ft Walking speed, Additionally they can innately levitate on the spot</p>
            
-            <p class="indent"><strong><em>Constructed Creatures.</em></strong> Void Cubes are considered a Construct, but still require to eat, drink, breath and sleep. </p>
+            <p class="indent"><strong><em>Artificial Being.</em></strong> Void Cubes are consideed constructs, not requiring food, water or air. but every they require an 8h rest period were they "retract" and are considered unconscius. </p>
            
-            <p class="indent"><strong><em>.</em></strong> _______ </p>
+            <p class="indent"><strong><em>Void given form.</em></strong>  </p>
 
             <p class="indent"><strong><em>RACIAL_TRAIT.</em></strong> _______ </p>
 
