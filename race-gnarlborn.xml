@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name> Gnarlborn</name>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="race-gnarlborn.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-gnarlborn.xml" />
         </update>
     </info>
@@ -18,7 +18,7 @@
             <p class="indent"></p>
             <h4>name Traits</h4>
             <p></p>
-            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your strenght is increased by 1 and you constitution by 1.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your strenght is increased by 2 and you constitution by 1.</p>
             <p class="indent"><strong><em>Age.</em></strong> Plant.</p>
             <p class="indent"><strong><em>Alignment.</em></strong> idk.</p>
             <p class="indent"><strong><em>Size.</em></strong> Medium.</p>
@@ -34,7 +34,7 @@
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="strenght" value="2" />
+            <stat name="strength" value="2" />
             <stat name="constitution" value="1" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <stat name="innate speed" value="30" bonus="base" />
