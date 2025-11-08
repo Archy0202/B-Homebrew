@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name> Gnarlborn</name>
+        <update version="0.0.2">
+            <file name="race-gnarlborn.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-gnarlborn.xml" />
+        </update>
+    </info>
+    
+    <element name="Gnarlborn" type="Race" source="Crooked Moon" id="ID_BBrew_RACE_GNARLBORN">
+        <description>
+            <p></p>
+            <h4>HEADING</h4>
+            <p></p>
+            <p class="indent"></p>
+            <h4>HEADING</h4>
+            <p></p>
+            <p class="indent"></p>
+            <h4>name Traits</h4>
+            <p></p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your strenght is increased by 1 and you constitution by 1.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Plant.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> idk.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> 30 feet walking</p>
+            
+            <p class="indent"><strong><em>Deeo Roots.</em></strong> _______</p>
+            <p class="indent"><strong><em>Elderwood Whispers.</em></strong> _______</p>
+            <p class="indent"><strong><em>Grasping Branches.</em></strong> _______</p>
+            <p class="indent"><strong><em>Root Sense.</em></strong> _______</p>
+            <p class="indent"><strong><em>Towering size.</em></strong> _______</p>
+
+            <p class="indent"><strong><em>Languages.</em></strong> common and plant?</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strenght" value="2" />
+            <stat name="constitution" value="1" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+           
+            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_DeepRoots" />
+            <grant type="Racial Trait" id="ID_Bbrew_RACIAL_TRAIT_ElderwoodWhisper" />
+            <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_GraspingBranches" />
+            <grant type="Racial Trait" id="ID_Bbrew_RACIAL_TRAIT_RootSense" />
+            <grant type="Racial Trait" id="ID____" />
+        
+            
+            <stat name="Grasping:dc" value="8" />
+            <stat name="Grasping:dc" value="proficiency" />
+            <stat name="Grasping:dc" value="constitution:modifier" /> 
+
+        </rules>
+    </element>
+
+    <element name="Deep Roots" type="Racial Trait" source="Crooked Moon" id="ID_BBrew_RACIAL_TRAIT_DeepRoots">
+        <description>
+            <p> You have advantage on ability checks and saving throws against being moved against your will and to avoid the Prone condition. </p>
+        </description>
+        <sheet>
+            <description>Advantage against moved and knocked Prone.</description>
+        </sheet>
+    </element>
+
+    <element name="Elderwood Whispers" type="Racial Trait" source="Crooked Moon" id="ID_Bbrew_RACIAL_TRAIT_ElderwoodWhispers">
+        <description>
+            <p> You caan draw on the memory of the elderwood spirits. When you finsish a long rest, you gain one proficiency with a skill, tool, or learn one language of choice until your next long rest. </p>
+        </description>
+        <sheet>
+            <description> Every long rest: pick one free skill, tool, or language proficiency  </description>
+        </sheet>
+    </element>
+
+    <element name="Grasping Branches" type="Racial Trait" source="Crooked Moon" id="ID_BBrew_RACIAL_TRAIT_GraspingBranches">
+        <description>
+            <p> As a bonus action, you can magically unleash the binding power of the dark wood. Chose a Large or smaller creature whithin 30 feet of yourself. the creature must make a strenght saving throw (DC 8+Con mod + Prof). On a failed save, the target is restrained for 1 min as vranches appear and ensnare it. 
+            On a successful save, its speed is halved until the end of its next turn.
+            A restrained creature repeats the save at the end of its turn, ending the efefct on a success.
+            Once you use this trait, you cant do so again untill you finsih a Short ot Long rest
+            </p>
+
+        </description>
+        <sheet>
+            <description action="Bonus Action" usage="1/Short Rest" dc="Grasping:dc"> Target creature with 30ft need to make a Stenghth saving throw.
+            Failed roll: the creature is restrained for 1 min.
+            Success movement is halved till end of next turn.
+            Repeat save at end of turn.
+            </description>
+            
+        </sheet>
+    </element>
+    
+    <element name="Root Sense" type="Racial Trait" source="Crooked Moon" id="ID_Bbrew_RACIAL_TRAIT_RootSense">
+        <description>
+            <p> As a Bonus Action, you gain tremorsense within 60ft for 10min.
+            Once this trait is used you cant do so again until you finish a Short or Long rest.
+            </p>
+        </description>
+        <sheet>
+            <description action="Bonus Action" usage="1/Short Rest"> Gain 60ft tremorsense for 10min. </description>
+        </sheet>
+    </element>
+    
+    <element name="Towering size" type="Racial Trait" source="Crooked Moon" id="ID_Bbrew_RACIAL_TRAIT_ToweringSize">
+        <description>
+            <p> You have advantage on any ability check you make to end the grappled condition. you also count as one size larger when determining your carry capacity. </p>
+        </description>
+        <sheet>
+            <description> Advantage on all check to end the Grapple Condition. </description>
+        </sheet>
+    </element>
+
+</elements>
+
