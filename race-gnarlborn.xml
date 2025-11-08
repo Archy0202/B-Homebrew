@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name> Gnarlborn</name>
-        <update version="0.0.5">
+        <update version="0.0.6">
             <file name="race-gnarlborn.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-gnarlborn.xml" />
         </update>
     </info>
@@ -34,7 +34,7 @@
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="strength" value="20" />
+            <stat name="strength" value="2" />
             <stat name="constitution" value="1" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <stat name="innate speed" value="30" bonus="base" />
