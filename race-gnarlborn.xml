@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name> Gnarlborn</name>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="race-gnarlborn.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-gnarlborn.xml" />
         </update>
     </info>
@@ -44,7 +44,7 @@
             <grant type="Racial Trait" id="ID_Bbrew_RACIAL_TRAIT_ElderwoodWhisper" />
             <grant type="Racial Trait" id="ID_BBrew_RACIAL_TRAIT_GraspingBranches" />
             <grant type="Racial Trait" id="ID_Bbrew_RACIAL_TRAIT_RootSense" />
-            <grant type="Racial Trait" id="ID____" />
+            <grant type="Racial Trait" id="ID_Bbrew_RACIAL_TRAIT_ToweringSize" />
         
             
             <stat name="Grasping:dc" value="8" />
@@ -63,7 +63,7 @@
         </sheet>
     </element>
 
-    <element name="Elderwood Whispers" type="Racial Trait" source="Crooked Moon" id="ID_Bbrew_RACIAL_TRAIT_ElderwoodWhispers">
+    <element name="Elderwood Whispers" type="Racial Trait" source="Crooked Moon" id="ID_Bbrew_RACIAL_TRAIT_ElderwoodWhisper">
         <description>
             <p> You caan draw on the memory of the elderwood spirits. When you finsish a long rest, you gain one proficiency with a skill, tool, or learn one language of choice until your next long rest. </p>
         </description>
