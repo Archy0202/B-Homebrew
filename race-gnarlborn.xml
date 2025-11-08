@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name> Gnarlborn</name>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="race-gnarlborn.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/race-gnarlborn.xml" />
         </update>
     </info>
@@ -34,7 +34,7 @@
         </description>
         <sheet display="false" />
         <rules>
-            <stat name="strength" value="2" />
+            <stat name="strength" value="20" />
             <stat name="constitution" value="1" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <stat name="innate speed" value="30" bonus="base" />
@@ -59,7 +59,7 @@
             <p> You have advantage on ability checks and saving throws against being moved against your will and to avoid the Prone condition. </p>
         </description>
         <sheet>
-            <description>Advantage against moved and knocked Prone.</description>
+            <description>Advantage against being moved and knocked Prone.</description>
         </sheet>
     </element>
 
@@ -68,7 +68,7 @@
             <p> You caan draw on the memory of the elderwood spirits. When you finsish a long rest, you gain one proficiency with a skill, tool, or learn one language of choice until your next long rest. </p>
         </description>
         <sheet>
-            <description> Every long rest: pick one free skill, tool, or language proficiency  </description>
+            <description usage="1/Long Rest"> pick one free skill, tool, or language proficiency  </description>
         </sheet>
     </element>
 
@@ -82,9 +82,9 @@
 
         </description>
         <sheet>
-            <description action="Bonus Action" usage="1/Short Rest" dc="Grasping:dc"> Target creature with 30ft need to make a Stenghth saving throw.
-            Failed roll: the creature is restrained for 1 min.
-            Success movement is halved till end of next turn.
+            <description action="Bonus Action" usage="1/Short Rest" dc="Grasping:dc"> Target creature within 30ft needs to make a Stenghth saving throw.
+            Failed: the creature is restrained for 1 min.
+            Success: movement is halved till end of next turn.
             Repeat save at end of turn.
             </description>
             
@@ -107,7 +107,7 @@
             <p> You have advantage on any ability check you make to end the grappled condition. you also count as one size larger when determining your carry capacity. </p>
         </description>
         <sheet>
-            <description> Advantage on all check to end the Grapple Condition. </description>
+            <description> Advantage on all checks to end the Grapple Condition. </description>
         </sheet>
     </element>
 
