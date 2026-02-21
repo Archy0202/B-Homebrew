@@ -5,7 +5,7 @@
         <description>A new Homebrew Archetype for the Fighter class, available at 3rd level, the Disco Knight focuses on moving aroud the battle field, building a combo from unarmed attacks to deal devistating blows.
         </description>
 
-        <update version="0.4.5">
+        <update version="0.4.6">
             <file name="Fighter-DiscoKnight.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Fighter-DiscoKnight.xml" />
         </update>
     </info>
@@ -81,11 +81,8 @@
         <description>
             <p>Starting from 3rd level, you gain a Disco Beat. It's a special rythm only you can hear that drives you during combat.</p>
             <h4>Follow the Beat</h4>
-            <p> At the start of Combat, you designate an enemy that becomes your Target. On your turn, if you attack the "target" and manage to hit an unarmed strike you start a Combo </p>
-            <p class="indent">Combo builds for each successful unarmed strike you make against the target up to a value equal to your performance modifier</p>
-            <p>At the end of your turn, the creature that is your "target" chnages, you pick another crature within 15ft of you and they become the next target. As long as you attack a creature that is the "target" you continue to maintain and build combo. if you attack an creature that isnt the target your combo breaks and drops to zero.</p>
-            <p class="indent">If the creature that is your target dies, on the start of your next turn you designate another creature as the new target. </p>
-
+            <p> On your turn, during combat, if you to hit an unarmed strike you start a Combo </p>
+            <p class="indent">Combo builds for each successful unarmed strike you make up to a value equal to your performance modifier</p>
         </description>
         <sheet>
             <description></description>
@@ -112,13 +109,10 @@
     <element name="To the Beat" type="Archetype Feature" source="B's Homebrew" id="ID_BBrew_ARCHETYPE_FEATURE_DISCO_BEAT">
         <description>
             <p> Starting from 3rd level you gain a disco beat. A special rythm only you can hear that drives you during combat. </p>
-            <p>if you follow the beat and its rules you build combo, ehich leads to other effects.</p>
             
             <h5>Following the Beat</h5>
-            <p>At the start of Combat, you designate an enemy that becomes your Target.</p>
-            <p>On your turn, if you attack the "Target" and manage to hit with an unarmed strike you start a combo. Combo builds for each successful unarmed strike you make against the "Target" up to a value equal to your performance modifier. </p>
-            <p class="indent"> At the end of your turn, the creature that is the "Target" changes; you pick another creature within 15ft of you and they become the next target. </p>
-
+            <p>On your turn, if you manage to hit with an unarmed strike you start a combo. Combo builds for each successful unarmed strike you make up to a value equal to your performance modifier. </p>
+            
             <h5>Spending Combo</h5>
             <p>When you have a combo going, as part of an attack you can do a Finisher; a stronger punch were you pend the combo you have built up.</p>
             <p>As part of an unarmed strike and before you know the resualt of the attack roll, you can decide to add the value of your combo to the attacks damage roll.</p>
