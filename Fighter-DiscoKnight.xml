@@ -5,7 +5,7 @@
         <description>A new Homebrew Archetype for the Fighter class, available at 3rd level, the Disco Knight focuses on moving aroud the battle field, building a combo from unarmed attacks to deal devistating blows.
         </description>
 
-        <update version="0.4.6">
+        <update version="0.5">
             <file name="Fighter-DiscoKnight.xml" url="https://raw.githubusercontent.com/Archy0202/B-Homebrew/main/Fighter-DiscoKnight.xml" />
         </update>
     </info>
@@ -126,16 +126,14 @@
         </description>
         <sheet>
 
-            <description level="3"> At the start of Combat designate a Target, on your turn, each successful unarmed stirke against the Target builds combo up to an amount equal to your performance modifier. 
-            At the end of each of your turns, you designate another creature within 15ft as the new target. 
+            <description level="3"> On your turn, each successful unarmed stirke against a target builds combo up to an amount equal to your performance modifier. 
             Combo can be spent on a Finisher.
             A special unarmed strike were, before you know the resualt, decide to spend your active combo and add it to the attacks damage roll. On a miss your combo is halved instead of fully spent.
             </description>
-
+<
             <description level="10">
-            At the start of Combat you designate a Target, on your turn, each successful unarmed stirke against the Target builds combo up to an amount equal to your performance modifier. 
+            On your turn, each successful unarmed stirke against a target builds combo up to an amount equal to your performance modifier. 
             On your first turn of combat, you can spend your bonus action to gain an initial amount of combo equal to your Charisma modifier.
-            At the end of each of your turns, you designate another creature within 25ft as the new target. 
             Combo can be spent on a Finisher.
             A special unarmed strike were, before you know the resualt, decide to spend your active combo and add it to the attacks damage roll. On a miss your combo is halved instead of fully spent.
             </description>
